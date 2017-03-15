@@ -1,5 +1,5 @@
-let assert   = require('chai').assert;
-let Piece = require('../lib/pieces')
+let assert = require('chai').assert;
+let Piece  = require('../lib/pieces')
 
 describe('Piece', function() {
 
@@ -7,7 +7,7 @@ describe('Piece', function() {
     assert.isFunction(Piece)
   })
 
-  it('should istantiate new piece', function() {
+  it('should be an object', function() {
     let piece = new Piece()
     assert.isObject(piece)
   })
