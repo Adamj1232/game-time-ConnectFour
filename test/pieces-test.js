@@ -1,9 +1,9 @@
 let assert = require('chai').assert;
-let Piece  = require('../lib/pieces')
+let Piece  = require('../lib/piece')
 
 describe('Piece', function() {
 
-  it('should be a function', function() {
+  it('should be a class', function() {
     assert.isFunction(Piece)
   })
 
@@ -12,24 +12,19 @@ describe('Piece', function() {
     assert.isObject(piece)
   })
 
-  it('should have height of 100', function() {
-    let piece = new Piece()
-    assert.equal(piece.height, 100)
+  it('should have a startX position', function() {
+    let piece = new Piece(100)
+    assert.equal(piece.startX, 100)
   })
 
-  it('should have width of 100', function() {
-    let piece = new Piece()
-    assert.equal(piece.width, 100)
+  it('should have a startY position', function() {
+    let piece = new Piece(100, 200)
+    assert.equal(piece.startY, 200)
   })
 
-  it('should have a player', function() {
-    let piece = new Piece('player')
-    assert.equal(piece.player, 'player')
-  })
-
-  it('should have a color', function() {
-    let piece = new Piece('player', 'red')
-    assert.equal(piece.color, 'red')
-  })
+  // it('should have a color', function() {
+  //   let piece = new Piece(context, 'green')
+  //   assert.equal(piece.drawPiece('green'), 'green')
+  // })
 
 })
