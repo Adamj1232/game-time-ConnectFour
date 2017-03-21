@@ -21,6 +21,9 @@
             "error",
             2
         ],
+        "indent":  [
+          2, 2, {"SwitchCase": 1}
+        ],
         "key-spacing": [
             "error", {
                 "beforeColon": false,
