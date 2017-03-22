@@ -1,4 +1,4 @@
-require('./column-test')
-require('./board-test')
-require('./pieces-test')
-require('./check-winner-test')
+require('./Column-test')
+require('./Board-test')
+require('./Pieces-test')
+require('./CheckWinner-test')
