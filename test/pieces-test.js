@@ -25,9 +25,4 @@ describe('Piece', function() {
     assert.equal(piece.startY, 200)
   })
 
-  // it('should have a color', function() {
-  //   let piece = new Piece(null, 'green')
-  //   assert.equal(piece.drawPiece('green'), 'green')
-  // })
-
 })
