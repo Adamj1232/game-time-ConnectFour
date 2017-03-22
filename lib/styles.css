@@ -1,11 +1,22 @@
+body {
+  background-color: #0099CC;
+}
+
 canvas {
-  border: 1px solid black;
+  border: 10px solid black;
   border-radius: 20px;
   margin: auto;
   display: block;
+  background-color: rgb(204, 221, 233);
 }
 
 h1 {
+  color: #FFF;
   text-align: center;
   font: bold 45px sans-serif;
+}
+
+h3 {
+  color: #FFF;
+  text-align: center;
 }
