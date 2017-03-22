@@ -1,5 +1,5 @@
 let assert = require('chai').assert;
-let Board  = require('../lib/board')
+let Board  = require('../lib/Board')
 
 describe('Board', function() {
 

@@ -1,5 +1,5 @@
 let assert = require('chai').assert;
-let Column  = require('../lib/column')
+let Column  = require('../lib/Column')
 
 describe('Column', function() {
   let column = new Column(100, 200)

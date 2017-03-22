@@ -1,5 +1,5 @@
 let assert = require('chai').assert;
-let Piece  = require('../lib/piece')
+let Piece  = require('../lib/Piece')
 
 describe('Piece', function() {
 
@@ -9,7 +9,7 @@ describe('Piece', function() {
 
   it('should be an object', function() {
     let piece = new Piece()
-    
+
     assert.isObject(piece)
   })
 
