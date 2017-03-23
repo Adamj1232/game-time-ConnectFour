@@ -30,6 +30,7 @@ h1 {
   text-align: center;
   font: bold 64px sans-serif;
   font-family: 'Wallpoet', cursive;
+  margin: 15px auto;
 }
 
 h2 {
@@ -37,6 +38,7 @@ h2 {
   color: silver;
   font-size: 2.1em;
   text-align: center;
+  margin: 15px auto;
 }
 
 h3 {
