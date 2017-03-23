@@ -6,7 +6,6 @@ describe('CheckForWinner', function () {
 
   let checkForWinner = new CheckForWinner()
 
-
   it('should be a class', function () {
     assert.isFunction(CheckForWinner)
   });
@@ -26,5 +25,5 @@ describe('CheckForWinner', function () {
   it('should have a function that returns false if player 2 does not get 4 in a row', function () {
     assert.equal(checkForWinner.checkLine(2, 2, 2, 1), false)
   });
-  
+
 })
