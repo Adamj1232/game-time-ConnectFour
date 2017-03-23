@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <link href="https://fonts.googleapis.com/css?family=Wallpoet" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Shojumaru|Stalinist+One|Wallpoet" rel="stylesheet">
   <audio id="audio1" src="lib/sounds/robot-rock.wav" autostart="true" ></audio>
   <audio id="audio" src="lib/sounds/chip-drop.wav" autostart="false" ></audio>
   <audio id="winner" src="lib/sounds/winner.wav" autostart="false" ></audio>
@@ -12,10 +12,23 @@
   <link rel="stylesheet" href="lib/styles.css">
 </head>
 <body>
-  <h1> Connect Four </h1>
+  <h1>Connect Four</h1>
+  <h2>Robots <span class="vs">vs </span><span class="ninjas">Ninjas</span></h2>
   <canvas id="game" width="700" height="600"></canvas>
-  <h3>Click in column to drop piece. Each click switches players.</h3>
-  <h3>First player to get four pieces in a row horizontally, vertically, or diagonally wins.</h3>
+  <section class="instructions">
+    <section class="images">
+      <div class="">
+        <img id="player1" width='80' height='80' src="lib/images/robot.png">
+        <p>Player 1</p>
+      </div>
+      <div class="">
+        <img id="player2" width='80' height='80' src="lib/images/ninja.png">
+        <p>Player 2</p>
+      </div>
+    </section>
+    <h3>Click in column to drop piece. Each click switches players.</h3>
+    <h3>First player to get four pieces in a row horizontally, vertically, or diagonally wins.</h3>
+  </section>
   <script src="main.bundle.js"></script>
 </body>
 </html>

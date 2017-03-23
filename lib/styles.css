@@ -2,6 +2,21 @@ body {
   background-color: #064668;
 }
 
+section .instructions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+section .images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 136px;
+  margin-left: 70px;
+}
+
 canvas {
   border: 10px solid black;
   border-radius: 20px;
@@ -17,9 +32,38 @@ h1 {
   font-family: 'Wallpoet', cursive;
 }
 
+h2 {
+  font-family: 'Stalinist One', cursive;
+  color: silver;
+  font-size: 2.1em;
+  text-align: center;
+}
+
 h3 {
   color: #D6B962;
   text-align: center;
   font-family: 'Wallpoet', cursive;
   font-size: 1.3em;
+}
+
+p {
+  margin: 0 0 0 1px;
+  color: #D6B962;
+  font-family: 'Wallpoet', cursive;
+}
+
+span {
+  color: rgba(255, 0, 0, 0.76);
+  font-size: 1.1em;
+  font-family: 'Shojumaru', cursive;
+}
+
+img {
+  margin: 0px 73px 0 0px;
+}
+
+.vs {
+  color: white;
+  font-size: 1.1em;
+  font-family: sans-serif;
 }
