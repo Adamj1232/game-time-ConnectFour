@@ -3,7 +3,7 @@ let Piece  = require('../lib/Piece')
 
 describe('Piece', function() {
 
-let piece = new Piece(100, 200)
+  let piece = new Piece(100, 200)
 
   it('should be a class', function() {
 
