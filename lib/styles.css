@@ -1,5 +1,5 @@
 body {
-  background-color: #0099CC;
+  background-color: #064668;
 }
 
 canvas {
@@ -7,16 +7,19 @@ canvas {
   border-radius: 20px;
   margin: auto;
   display: block;
-  background-color: rgb(204, 221, 233);
+  background-color: #919399;
 }
 
 h1 {
-  color: #FFF;
+  color: #D6B962;
   text-align: center;
-  font: bold 45px sans-serif;
+  font: bold 64px sans-serif;
+  font-family: 'Wallpoet', cursive;
 }
 
 h3 {
-  color: #FFF;
+  color: #D6B962;
   text-align: center;
+  font-family: 'Wallpoet', cursive;
+  font-size: 1.3em;
 }
