@@ -34,6 +34,8 @@ h1 {
 }
 
 h2 {
+  cursor: pointer;
+  cursor: hand; 
   font-family: 'Stalinist One', cursive;
   color: silver;
   font-size: 2.1em;

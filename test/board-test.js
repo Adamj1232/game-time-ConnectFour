@@ -3,7 +3,7 @@ let Board  = require('../lib/Board')
 
 describe('Board', function() {
 
-  let board = new Board()
+  let board = new Board(context, 100, 200)
 
   it('should be a class', function() {
     assert.isFunction(Board)
@@ -11,6 +11,18 @@ describe('Board', function() {
 
   it('should be an object', function() {
     assert.isObject(board)
+  })
+
+  it('should have a startX position', function() {
+    assert.equal(board.startX, 100)
+  })
+
+  it('should have a startY position', function() {
+    assert.equal(board.startY, 200)
+  })
+
+  it('should have a column array that contains 7 columns', function() {
+    assert.deepEqual(board.columns, [[], [], [], [], [], [], []])
   })
 
 })

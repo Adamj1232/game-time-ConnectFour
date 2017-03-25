@@ -25,16 +25,16 @@ describe('Piece', function() {
     assert.equal(piece.startY, 200)
   })
 
-  it('should have pieceCount with default of 0', function() {
-
-    assert.equal(piece.pieceCount, 0)
-  })
-
-  it('should be a function that increments pieceCount by 1', function() {
-
-    assert.equal(piece.pieceCount, 0)
-    piece.stalemate();
-    assert.equal(piece.pieceCount, 1)
-  })
+  // it('should have pieceCount with default of 0', function() {
+  //
+  //   assert.equal(piece.pieceCount, 0)
+  // })
+  //
+  // it('should be a function that increments pieceCount by 1', function() {
+  //
+  //   assert.equal(piece.pieceCount, 0)
+  //   piece.stalemate();
+  //   assert.equal(piece.pieceCount, 1)
+  // })
 
 })
