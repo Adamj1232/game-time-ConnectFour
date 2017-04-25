@@ -13,14 +13,6 @@ describe('Board', function() {
     assert.isObject(board)
   })
 
-  it('should have a startX position', function() {
-    assert.equal(board.startX, 100)
-  })
-
-  it('should have a startY position', function() {
-    assert.equal(board.startY, 200)
-  })
-
   it('should have a column array that contains 7 columns', function() {
     assert.deepEqual(board.columns, [[], [], [], [], [], [], []])
   })
