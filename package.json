@@ -1,7 +1,7 @@
 {
   "name": "game-time-starter-kit-fem1",
   "version": "1.0.0",
-  "description": "Starter kit for Turing School's front-end module 1 Game Time project",
+  "description": "Connect Four - Robots v. Ninjas - Game Time - Desktop version of the classic game Connect-Four with Robots vs. Ninjas built using vanilla JavaScript, HTML canvas and Mocha/Chai for testing.",
   "main": "index.js",
   "scripts": {
     "start": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/turingschool-examples/game-time-starter-kit-FEm1.git"
+    "url": "git+https://github.com/Adamj1232/game-time-ConnectFour"
   },
-  "author": "Turing School of Software and Design - Robbie Jaeger",
+  "author": "Adam Carpenter and Travis Gregory",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/turingschool-examples/game-time-starter-kit-FEm1/issues"
+    "url": "https://github.com/Adamj1232/game-time-ConnectFour"
   },
-  "homepage": "https://github.com/turingschool-examples/game-time-starter-kit-FEm1#readme",
+  "homepage": "https://adamj1232.github.io/game-time-ConnectFour/",
   "devDependencies": {
     "babel": "^6.5.2",
     "babel-core": "^6.18.2",
